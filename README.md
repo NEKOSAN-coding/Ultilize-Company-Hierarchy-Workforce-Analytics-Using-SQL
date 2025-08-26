@@ -17,11 +17,25 @@ Founder → Lead Manager → Senior Manager → Manager → Employee
 ```
 
 **Tables:**
-- `Company(company_code, founder)`  
-- `Lead_Manager(lead_manager_code, company_code)`  
-- `Senior_Manager(senior_manager_code, lead_manager_code, company_code)`  
-- `Manager(manager_code, senior_manager_code, lead_manager_code, company_code)`  
+- `Company(company_code, founder)`
+
+<img width="1174" height="329" alt="image" src="https://github.com/user-attachments/assets/0651207f-374f-411a-b38e-431b12acac7f" />
+  
+- `Lead_Manager(lead_manager_code, company_code)`
+
+<img width="1533" height="350" alt="image" src="https://github.com/user-attachments/assets/7fc7b585-394a-4ebd-8587-0433b709e46f" />
+
+- `Senior_Manager(senior_manager_code, lead_manager_code, company_code)`
+
+<img width="1641" height="412" alt="image" src="https://github.com/user-attachments/assets/9b31d8d9-3359-49a6-b024-1d05c2e0576d" />
+
+- `Manager(manager_code, senior_manager_code, lead_manager_code, company_code)`
+
+<img width="1823" height="452" alt="image" src="https://github.com/user-attachments/assets/eacd5b9c-5cb8-4344-8dd8-4bac165d5255" />
+ 
 - `Employee(employee_code, manager_code, senior_manager_code, lead_manager_code, company_code)`  
+
+<img width="1857" height="492" alt="image" src="https://github.com/user-attachments/assets/d6e38d4a-fd94-4a7b-addc-8668b3b354ed" />
 
 ---
 
