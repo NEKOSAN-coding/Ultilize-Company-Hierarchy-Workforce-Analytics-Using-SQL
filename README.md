@@ -19,7 +19,7 @@ Founder → Lead Manager → Senior Manager → Manager → Employee
 **Tables:**
 - `Company(company_code, founder)`
 
-<img width="1174" height="329" alt="image" src="https://github.com/user-attachments/assets/0651207f-374f-411a-b38e-431b12acac7f" />
+<img width="1171" height="325" alt="image" src="https://github.com/user-attachments/assets/8b4b6bd6-f011-49ac-9898-93ffffaf4989" />
   
 - `Lead_Manager(lead_manager_code, company_code)`
 
@@ -27,7 +27,7 @@ Founder → Lead Manager → Senior Manager → Manager → Employee
 
 - `Senior_Manager(senior_manager_code, lead_manager_code, company_code)`
 
-<img width="1641" height="412" alt="image" src="https://github.com/user-attachments/assets/9b31d8d9-3359-49a6-b024-1d05c2e0576d" />
+<img width="1634" height="407" alt="image" src="https://github.com/user-attachments/assets/85c55e8c-3986-47a2-aabf-2e77b6082ab3" />
 
 - `Manager(manager_code, senior_manager_code, lead_manager_code, company_code)`
 
