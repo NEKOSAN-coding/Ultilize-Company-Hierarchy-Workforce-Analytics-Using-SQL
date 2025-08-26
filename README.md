@@ -31,8 +31,8 @@ Founder → Lead Manager → Senior Manager → Manager → Employee
 
 - `Manager(manager_code, senior_manager_code, lead_manager_code, company_code)`
 
-<img width="1823" height="452" alt="image" src="https://github.com/user-attachments/assets/eacd5b9c-5cb8-4344-8dd8-4bac165d5255" />
- 
+<img width="1835" height="442" alt="image" src="https://github.com/user-attachments/assets/3c101a41-cca6-43b1-95f6-c848ce5d9989" />
+
 - `Employee(employee_code, manager_code, senior_manager_code, lead_manager_code, company_code)`  
 
 <img width="1857" height="492" alt="image" src="https://github.com/user-attachments/assets/d6e38d4a-fd94-4a7b-addc-8668b3b354ed" />
